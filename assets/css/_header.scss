@@ -1,0 +1,51 @@
+// header css start////
+
+#header{
+    background: #20484F;
+    padding: 10px 0px;
+    &.active-header{
+        padding: 20px;
+        transition: 0.3s ease-in-out;
+        position: fixed;
+        width: 100%;
+        z-index: 999;
+    }
+    .header-left{
+        width: 13%;
+        h4{
+            color: #fff;
+            font-family: 'Plus Jakarta Sans';
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 30px;
+        }
+    }
+    .navbar{
+        ul{
+            li{
+                font-family: 'Plus Jakarta Sans';
+                  font-style: normal;
+                  font-weight: 400;
+                  font-size: 16px;
+                  padding-left: 20px;
+                a{
+                    color: #fff;
+                    text-decoration: none;
+                    transition: 0.3s ease-in-out;
+                    &:hover{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
+    .header-right{
+        a{
+            text-decoration: none;
+            color: #20484F;
+            font-weight: 400;
+            font-size: 14px;
+        }
+    }
+}
+// header css end 

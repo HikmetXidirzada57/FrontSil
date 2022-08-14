@@ -1,0 +1,19 @@
+@import'_form';
+@import '_home';
+@import '_header';
+
+
+*{
+    font-family: 'Plus Jakarta Sans';
+}
+a{
+  text-decoration: none !important;
+}
+ul{
+    list-style: none;
+}
+.container-box{
+ width: 60%;
+ margin: auto;
+}
+
